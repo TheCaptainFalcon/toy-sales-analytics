@@ -1,9 +1,9 @@
 # Toy Sales Analytics
-[![Build Status](https://github.com/TheCaptainFalcon/toy-sales-analytics/script.svg?branch=master)](https://github.com/TheCaptainFalcon/toy-sales-analytics)
+![GitHub last commit](https://img.shields.io/github/last-commit/thecaptainfalcon/toy-sales-analytics)
 
 [Interactive Tableau Dashboard](https://public.tableau.com/app/profile/joseph708/viz/Draftp1/ExecutiveToys) 
 
-![Executive Sales Dashboard](/images/md_images/Executive_Toys.PNG "Executive Sales Dashboard - Toy Sales in Mexico")
+![Executive Sales Dashboard](/images/md_images/Executive_Toys.png "Executive Sales Dashboard - Toy Sales in Mexico")
 
 ## Table of Contents
 1. [What is this project?](#project-id)
@@ -114,7 +114,7 @@ A great way to pivot would be to look at capitalizing on the inventory shortage 
 
 ## EER Diagram 
 
-![MySQL EER Diagram](/images/EER Diagram.JPG "EER Diagram")
+![MySQL EER Diagram](/images/EER_Diagram.JPG "EER Diagram")
 
 <div id='sql-id'>
 
@@ -122,21 +122,21 @@ A great way to pivot would be to look at capitalizing on the inventory shortage 
 
 ### Sales/Profit/Expenses by Location
 
-![sql stored procedure - sales/profit/expenses by location](/images/sql stored procedure - store location stats.JPG "sales/profit/expenses by location")
+![sql stored procedure - sales/profit/expenses by location](/images/sql_stored_procedure-store_location_stats.JPG "sales/profit/expenses by location")
 
-![sql call - sales/profit/expenses by location](/images/CALL location stats.JPG "sales/profit/expenses by location")
+![sql call - sales/profit/expenses by location](/images/CALL_location_stats.JPG "sales/profit/expenses by location")
 
 ### Sales/Profit/Expenses by City
 
-![sql stored procedure - sales/profit/expenses by city](/images/sql stored procedure - city stats.JPG "sales/profit/expenses by city")
+![sql stored procedure - sales/profit/expenses by city](/images/sql_stored_procedure-city_stats.JPG "sales/profit/expenses by city")
 
-![sql call - sales/profit/expenses by city](/images/CALL city stats.JPG "sales/profit/expenses by city")
+![sql call - sales/profit/expenses by city](/images/CALL_city_stats.JPG "sales/profit/expenses by city")
 
 ### Store Inventory by Location
 
-![sql stored procedure - store inventory by location](/images/sql stored procedure - store inventory by location.JPG "store inventory by location")
+![sql stored procedure - store inventory by location](/images/sql_stored_procedure-store_inventory_by_location.JPG "store inventory by location")
 
-![sql call - store inventory by location](/images/CALL store inventory by location stats.JPG "store inventory by location")
+![sql call - store inventory by location](/images/CALL_store_inventory_by_location.JPG "store inventory by location")
 
 
 <div id='author-id'>
