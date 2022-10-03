@@ -1,3 +1,10 @@
+# Toy Sales Analytics
+[![Build Status](https://github.com/TheCaptainFalcon/toy-sales-analytics/script.svg?branch=master)](https://github.com/TheCaptainFalcon/toy-sales-analytics)
+
+[Interactive Tableau Dashboard](https://public.tableau.com/app/profile/joseph708/viz/Draftp1/ExecutiveToys) 
+
+![Executive Sales Dashboard](/images/md_images/Executive_Toys.PNG "Executive Sales Dashboard - Toy Sales in Mexico")
+
 ## Table of Contents
 1. [What is this project?](#project-id)
 2. [Tech Stack](#tech-id)
@@ -107,24 +114,44 @@ A great way to pivot would be to look at capitalizing on the inventory shortage 
 
 ## EER Diagram 
 
-Highlight the boxes and arrow as well to show explanation for primary keys and foreign keys
-Also talk about the data types and 
+![MySQL EER Diagram](/images/EER Diagram.JPG "EER Diagram")
 
 <div id='sql-id'>
 
-## SQL Stored procedures
+## SQL Stored procedures - Samples/Examples
 
-High level view of KPI suited for an executive interested in the sales/profit/inventory of each location, city, store.
+### Sales/Profit/Expenses by Location
+
+![sql stored procedure - sales/profit/expenses by location](/images/sql stored procedure - store location stats.JPG "sales/profit/expenses by location")
+
+![sql call - sales/profit/expenses by location](/images/CALL location stats.JPG "sales/profit/expenses by location")
+
+### Sales/Profit/Expenses by City
+
+![sql stored procedure - sales/profit/expenses by city](/images/sql stored procedure - city stats.JPG "sales/profit/expenses by city")
+
+![sql call - sales/profit/expenses by city](/images/CALL city stats.JPG "sales/profit/expenses by city")
+
+### Store Inventory by Location
+
+![sql stored procedure - store inventory by location](/images/sql stored procedure - store inventory by location.JPG "store inventory by location")
+
+![sql call - store inventory by location](/images/CALL store inventory by location stats.JPG "store inventory by location")
+
 
 <div id='author-id'>
 
 ## Author notes:
 
 Useful way to import large data:
--- LOAD DATA LOCAL INFILE '[FILE PATH REDACTED]/sales.csv' INTO TABLE sales
--- FIELDS TERMINATED BY ',' -- CSV file format
--- ENCLOSED BY '"'
--- LINES TERMINATED BY '\r\n'
--- IGNORE 1 LINES -- to accomodate column headers
+> LOAD DATA LOCAL INFILE '[FILE PATH REDACTED]/sales.csv' INTO TABLE sales
+
+> FIELDS TERMINATED BY ',' -- CSV file format
+
+> ENCLOSED BY '"'
+
+> LINES TERMINATED BY '\r\n'
+
+> IGNORE 1 LINES -- to accomodate column headers
 
 Tableau relationships: how it must be connected by noodles (ideally individually - in a way that makes sense) if its going to interact with (table a with table b) then a noodle should connect them
